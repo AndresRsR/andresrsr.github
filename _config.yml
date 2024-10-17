@@ -19,7 +19,7 @@ darkmode: false
 github_username:  AndresRsR
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
- facebook_username: Andres Rsr
+facebook_username: Andres Rsr
 # flickr_username: jekyll
 instagram_username: andres_rsr
 linkedin_username: Andrés Ramos
@@ -51,6 +51,7 @@ about_content: | # this will include new lines to allow paragraphs
   Hola, soy Andrés Ramos ingeniero electrónico y de automatización, e ido forjando mis habilidades a traves de la práctica que he obtenido por medio de trabajos realizados.
   Gracias a estas experiencias he podido mejorar mis habilidades con dispositivos de las siguientes marcas: <mark>Siemens</mark> , <mark>Delta</mark> , <mark>Arduino</mark> y <mark>Schneider Electric</mark>
   Tambien he podido mejorar mi conocimiento en software como: <mark>Matlab</mark> y <mark>Python</mark>
+  
 content:
   - title: Proyectos # Title for the section
     layout: list # Type of content section (list/text)
@@ -70,6 +71,7 @@ content:
           Este es uno de los mas grandes proyectos realizados, con una implementación dirigida hacia un data-center de una telefonica lider a nivel nacional.
         description: | # this will include new lines to allow paragraphs
           Este proyecto lo desarrolle mientras aún era estudiante universitario, toda la implementación se realizo con éxito, la comunicación de datos fue efectiva, con relación a que se tuvo que trbajar con diferentes proveedores de los dispositivos usados.
+
   - title: Experiencia # Title for the section
     layout: list # Type of content section (list/text)
     content:
