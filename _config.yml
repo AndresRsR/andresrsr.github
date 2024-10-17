@@ -1,0 +1,122 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Andrés Ramos
+title: Ingeniero en electrónica y automatización
+email: andresrsr19@gmai.com
+website: https://andresrsr.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  AndresRsR
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+ facebook_username: Andres Rsr
+# flickr_username: jekyll
+instagram_username: andres_rsr
+linkedin_username: Andrés Ramos
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Acerca de mi
+about_profile_image: images/andres.png
+about_content: | # this will include new lines to allow paragraphs
+  Hola, soy Andrés Ramos ingeniero electrónico y de automatización, e ido forjando mis habilidades a traves de la práctica que he obtenido por medio de trabajos realizados.
+  Gracias a estas experiencias he podido mejorar mis habilidades con dispositivos de las siguientes marcas: <mark>Siemens</mark> , <mark>Delta</mark> , <mark>Arduino</mark> y <mark>Schneider Electric</mark>
+  Tambien he podido mejorar mi conocimiento en software como: <mark>Matlab</mark> y <mark>Python</mark>
+content:
+  - title: Proyectos # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Monitoreo de banco de baterias para data-centers
+        link: https://drive.google.com/file/d/18d-nHvvp3nuuataWjNpa8BN8EqqTmLL6/view?usp=drive_link
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Este es uno de los mas grandes proyectos realizados, con una implementación dirigida hacia un data-center de una telefonica lider a nivel nacional.
+        description: | # this will include new lines to allow paragraphs
+          Este proyecto lo desarrolle mientras aún era estudiante universitario, toda la implementación se realizo con éxito, la comunicación de datos fue efectiva, con relación a que se tuvo que trbajar con diferentes proveedores de los dispositivos usados.
+  - title: Experiencia # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Constecoin Cia.Ltda
+        link: constecoin.com
+        # link_text: boringcompany.com
+        sub_title: Desarrollador de soluciones IoT
+        caption: Junio 2024 - Noviembre 2024
+        quote: >
+          Desarrollo de diferentes proyectos con trazabilidad.
+        description: | # this will include new lines to allow paragraphs
+           Durante el tiempo que estuve en esta compañia, logre reforzar mis conocimentos es diferentes marcas desarrolladoras de sistemas y...
+  - title: Educación # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Universidad de las Fuerzas Armadas ESPE
+        caption: 2018 - 2025
+        sub_title: Ingeniería electrónica y automatización
+        quote: >
+          darros icónicos acerca de la universidad.
+        description: | # this will include new lines to allow paragraphs
+          Explicación de mi paso a traves de la universidad.
+
+  - title: Un poco mas acerca de mi
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Hobbies que tengo
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
