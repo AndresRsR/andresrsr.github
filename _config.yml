@@ -32,7 +32,7 @@ linkedin_username: andrés-ramos-328080275
 # Additional icon links Adicional para páginas web 
 additional_links:
 - title: WhatsApp
-  icon: fa-brands fa-whatsapp 
+  icon: fab fa-whatsapp 
   url: https://wa.link/me1jkk
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
