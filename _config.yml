@@ -30,10 +30,10 @@ linkedin_username: andrés-ramos-328080275
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links Adicional para páginas web 
-#additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+additional_links:
+- title: WhatsApp
+  icon: images/ico_whaspp.ico
+  url: https://wa.link/me1jkk
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
